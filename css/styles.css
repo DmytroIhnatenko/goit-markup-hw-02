@@ -1,0 +1,115 @@
+:root {
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #343455;
+  margin: 0 auto;
+  max-width: calc(100% - 312px);
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  color: #343455;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 72px;
+}
+
+.web {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  margin-left: auto;
+}
+
+.menu {
+  display: flex;
+
+  margin-left: 75px;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu li a:active {
+  color: red;
+}
+
+.contact-list {
+  display: flex;
+}
+
+.contact-list li {
+  margin: 0 10px;
+}
+
+.contact-list li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+.contact-list li a:active {
+  color: red;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+/* End Header */
