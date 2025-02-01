@@ -7,7 +7,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  margin: 0;
 }
 
 h1 {
@@ -39,14 +38,12 @@ ol {
 
 /* Header */
 header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 156px;
-  box-sizing: border-box;
   height: 72px;
 }
 
@@ -71,7 +68,6 @@ header {
 }
 
 .menu {
-  display: flex;
   margin-left: 75px;
 }
 
@@ -97,7 +93,6 @@ address {
 }
 
 .contact-list {
-  display: flex;
 }
 
 .contact-list li {
@@ -123,7 +118,6 @@ address {
 }
 
 nav {
-  display: flex;
   align-items: center;
 }
 /* End Header */
@@ -147,11 +141,13 @@ nav {
 .hero-btn {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
   color: #ffffff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
   transition: background-color 0.3s;
@@ -172,11 +168,7 @@ nav {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .features-title {
@@ -194,8 +186,6 @@ nav {
   color: #434455;
 }
 .features-list li {
-  flex: 1;
-  max-width: 300px;
   text-align: left;
 }
 
@@ -206,6 +196,9 @@ nav {
   padding: 50px 20px;
   background-color: #f4f4fd;
   text-align: center;
+}
+.team-list li:first-child {
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -222,14 +215,11 @@ nav {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
 }
 .team-list li {
-  max-width: 264px;
-  text-align: center;
+  padding: 0 0 32px;
+  background: #fff;
 }
 .team-member-name {
   font-size: 20px;
@@ -247,10 +237,6 @@ nav {
   color: #434455;
 }
 
-.team-list img {
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 /* End Team */
 
 /* Portfolio */
@@ -271,11 +257,7 @@ nav {
 }
 
 .portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
   justify-content: center;
-  align-items: center;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0;
@@ -283,7 +265,6 @@ nav {
 }
 
 .portfolio-list li {
-  max-width: 360px;
   text-align: center;
 }
 
@@ -303,10 +284,7 @@ nav {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.portfolio-list img {
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+
 /* End Portfolio */
 
 /* Footer */
