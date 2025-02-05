@@ -1,3 +1,4 @@
+/* Base Styles */
 :root {
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Raleway", sans-serif;
@@ -57,6 +58,7 @@ header {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
 }
+
 .logo:hover,
 .logo:focus {
   color: #404bff;
@@ -67,24 +69,17 @@ header {
   margin-left: auto;
 }
 
-.menu {
-  margin-left: 75px;
-}
-
-.menu li {
-  margin: 0 10px;
-}
-
-.menu-nav {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
-.menu-nav:hover,
-.menu-nav:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bff;
 }
 
@@ -92,34 +87,25 @@ address {
   font-style: normal;
 }
 
-.contact-list li {
-  margin: 0 10px;
-}
-
-.contact-list li a {
+.contact-list {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
   font-style: normal;
 }
 
-.contact-list li a:hover,
-.contact-list li a:focus {
+.contact-list :hover,
+.contact-list :focus {
   color: #404bbf;
 }
 
-.contact-list li a:active {
+.contact-list :active {
   color: red;
 }
 
-nav {
-  align-items: center;
-}
-/* End Header */
-
-/* Hero */
+/* Hero Section */
 .hero {
   background-color: #2e2f42;
   padding: 50px 20px;
@@ -149,13 +135,16 @@ nav {
   text-transform: uppercase;
   transition: background-color 0.3s;
 }
-.hero-btn:hover,
+
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
 .hero-btn:focus {
   background-color: #404bbf;
 }
-/* End Hero */
 
-/* Features */
+/* Features Section */
 .features {
   padding: 50px 20px;
   background-color: #f5f5f5;
@@ -176,24 +165,25 @@ nav {
   color: #2e2f42;
   margin-bottom: 10px;
 }
+
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .features-list li {
   text-align: left;
 }
 
-/* End Features */
-
-/* Team */
+/* Team Section */
 .team {
   padding: 50px 20px;
   background-color: #f4f4fd;
   text-align: center;
 }
+
 .team-list li:first-child {
   background-color: #ffffff;
 }
@@ -214,10 +204,12 @@ nav {
   margin: 0;
   justify-content: center;
 }
+
 .team-list li {
   padding: 0 0 32px;
   background: #fff;
 }
+
 .team-member-name {
   font-size: 20px;
   font-weight: 500;
@@ -234,9 +226,7 @@ nav {
   color: #434455;
 }
 
-/* End Team */
-
-/* Portfolio */
+/* Portfolio Section */
 .portfolio {
   padding: 50px 20px;
   background-color: #f4f4fd;
@@ -261,10 +251,6 @@ nav {
   list-style: none;
 }
 
-.portfolio-list li {
-  text-align: center;
-}
-
 .portfolio-item-title {
   font-size: 20px;
   font-weight: 500;
@@ -282,13 +268,10 @@ nav {
   color: #434455;
 }
 
-/* End Portfolio */
-
 /* Footer */
 .footer {
   background-color: #2e2f42;
   padding: 50px 20px;
-  text-align: left;
   width: 100%;
 }
 
@@ -300,7 +283,7 @@ nav {
 .footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -311,14 +294,14 @@ nav {
 .footer .web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   text-decoration: none;
   color: #f4f4fd;
 }
+
 .footer-text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -327,5 +310,3 @@ nav {
   color: var(--text-color-footer, #f4f4fd);
   margin-top: 10px;
 }
-
-/* End Footer */
