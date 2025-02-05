@@ -75,7 +75,7 @@ header {
   margin: 0 10px;
 }
 
-.menu li a {
+.menu-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,16 +83,13 @@ header {
   color: #2e2f42;
 }
 
-.menu li a:hover,
-.menu li a:focus {
+.menu-nav:hover,
+.menu-nav:focus {
   color: #404bff;
 }
 
 address {
   font-style: normal;
-}
-
-.contact-list {
 }
 
 .contact-list li {
