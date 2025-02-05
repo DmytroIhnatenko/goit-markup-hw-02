@@ -78,11 +78,10 @@ header {
   text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.menu li:first-child .nav-link:hover,
+.menu li:first-child .nav-link:focus {
   color: #404bff;
 }
-
 address {
   font-style: normal;
 }
@@ -94,6 +93,10 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-style: normal;
+}
+
+.contact-list li:first-child .mailto {
+  color: #434455;
 }
 
 .contact-list :hover,
@@ -151,9 +154,7 @@ address {
 }
 
 .features-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  display: flex;
   justify-content: center;
 }
 
@@ -275,11 +276,6 @@ address {
   width: 100%;
 }
 
-.footer .div {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -307,6 +303,6 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color-footer, #f4f4fd);
+  color: #f4f4fd;
   margin-top: 10px;
 }
