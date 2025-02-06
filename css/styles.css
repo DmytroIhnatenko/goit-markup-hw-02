@@ -30,23 +30,9 @@ a:focus {
   text-decoration: underline;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
-/* ul,
-ol {
-  list-style-type: none;
-} */
 button {
-  cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
-
-/* Header */
-/* header {
-  justify-content: space-between;
-  align-items: center;
-} */
 
 .web,
 .logo {
@@ -81,17 +67,15 @@ button {
 .menu li:first-child .nav-link:focus {
   color: #404bbf;
 }
+
 address {
-  font-style: normal;
 }
 
 .contact-list {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  font-style: normal;
 }
 
 .contact-list li:first-child .mailto {
@@ -110,7 +94,6 @@ address {
 /* Hero Section */
 .hero {
   background-color: #2e2f42;
-
   text-align: center;
 }
 
@@ -130,7 +113,6 @@ address {
   letter-spacing: 0.04em;
   font-weight: 500;
   color: #ffffff;
-  cursor: pointer;
   text-transform: uppercase;
   transition: background-color 0.3s;
 }
@@ -188,12 +170,6 @@ address {
   text-transform: capitalize;
 }
 
-/* .team-list {
-  list-style: none;
-
-  justify-content: center;
-} */
-
 .team-list li {
   background: #fff;
 }
@@ -227,10 +203,6 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
-/* .portfolio-list {
-  list-style: none;
-} */
 
 .portfolio-item-title {
   font-size: 20px;
