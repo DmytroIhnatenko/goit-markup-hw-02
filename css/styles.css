@@ -33,20 +33,20 @@ a:focus {
 * {
   box-sizing: border-box;
 }
-ul,
+/* ul,
 ol {
   list-style-type: none;
-}
+} */
 button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
 
 /* Header */
-header {
+/* header {
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .web,
 .logo {
@@ -188,11 +188,11 @@ address {
   text-transform: capitalize;
 }
 
-.team-list {
+/* .team-list {
   list-style: none;
 
   justify-content: center;
-}
+} */
 
 .team-list li {
   background: #fff;
@@ -228,9 +228,9 @@ address {
   color: #2e2f42;
 }
 
-.portfolio-list {
+/* .portfolio-list {
   list-style: none;
-}
+} */
 
 .portfolio-item-title {
   font-size: 20px;
