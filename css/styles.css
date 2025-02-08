@@ -69,6 +69,7 @@ button {
 }
 
 address {
+  font-style: normal;
 }
 
 .contact-list {
@@ -115,6 +116,7 @@ address {
   color: #ffffff;
   text-transform: uppercase;
   transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
