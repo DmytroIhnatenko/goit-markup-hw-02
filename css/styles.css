@@ -3,9 +3,7 @@
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Raleway", sans-serif;
 }
-* {
-  box-sizing: border-box;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
