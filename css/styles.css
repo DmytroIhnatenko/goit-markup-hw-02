@@ -120,9 +120,9 @@ address {
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover {
   background-color: #404bbf !important;
+  color: #ffffff;
 }
 
 /* Features Section */
