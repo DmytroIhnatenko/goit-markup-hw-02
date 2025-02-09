@@ -13,6 +13,9 @@ body {
 h1 {
   font-family: "Raleway", sans-serif;
 }
+ul {
+  list-style-type: none;
+}
 
 h2,
 h3 {
@@ -113,19 +116,14 @@ address {
   letter-spacing: 0.04em;
   font-weight: 500;
   color: #ffffff;
-
   transition: background-color 0.3s;
   cursor: pointer;
 }
 
-.hero-btn:hover {
-  background-color: #404bbf;
-  color: #ffffff;
-}
-
+.hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
-  color: #ffffff;
+  color: #404bbf;
 }
 
 /* Features Section */
