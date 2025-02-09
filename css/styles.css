@@ -108,11 +108,6 @@ address {
   text-align: center;
 }
 
-.hero-btn :hover,
-.hero-btn :focus {
-  background-color: #404bbf;
-}
-
 .hero-btn {
   background-color: #4d5ae5;
 
@@ -123,6 +118,11 @@ address {
   color: #ffffff;
   transition: background-color 0.3s;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* Features Section */
