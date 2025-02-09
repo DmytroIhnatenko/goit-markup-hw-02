@@ -108,7 +108,7 @@ address {
   text-align: center;
 }
 
-.hero-btn {
+.herobtn {
   background-color: #4d5ae5;
 
   font-size: 16px;
@@ -120,7 +120,7 @@ address {
   cursor: pointer;
 }
 
-.hero-btn:hover {
+.herobtn:hover {
   background-color: #404bbf !important;
   color: #ffffff;
 }
