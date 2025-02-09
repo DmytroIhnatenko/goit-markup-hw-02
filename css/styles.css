@@ -121,12 +121,12 @@ address {
 
 .hero-btn:hover {
   background-color: #404bbf;
-  color: #fff;
+  color: #ffffff;
 }
 
 .hero-btn:focus {
   background-color: #404bbf;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* Features Section */
